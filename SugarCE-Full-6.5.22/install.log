@@ -1,0 +1,197 @@
+
+2015-11-09 10:39:31...Begin System Check Process *************
+2015-11-09 10:39:31...XML Parsing Support Found
+2015-11-09 10:39:31...MBString Support Found
+2015-11-09 10:39:31...ZIP Support Found
+2015-11-09 10:39:31.../custom directory and subdirectory check passed
+2015-11-09 10:39:31...cache directory and subdirectory check passed
+2015-11-09 10:39:31.../module  directory and subdirectory check passed
+2015-11-09 10:39:31.../upload directory check passed
+2015-11-09 10:39:31.../zip check passed
+2015-11-09 10:39:31...PCRE version check passed
+2015-11-09 10:39:31...installerHook: Could not find custom/install/install_hooks.php
+2015-11-09 10:39:31...php.ini location found. /etc/php5/apache2/php.ini
+2015-11-09 10:39:31...Outputting HTML for System check
+2015-11-09 10:39:31...No Errors were found *************
+2015-11-09 10:39:34...installerHook: Could not find custom/install/install_hooks.php
+2015-11-09 10:39:52...installerHook: Could not find custom/install/install_hooks.php
+2015-11-09 10:39:55...installerHook: Could not find custom/install/install_hooks.php
+2015-11-09 10:46:24...Begin DB Check Process *************
+2015-11-09 10:46:24...testing with mysql:mysqli
+2015-11-09 10:46:24...Basic form info is valid, continuing Process.
+2015-11-09 10:46:24...Testing user account...
+2015-11-09 10:46:24...Connection made using  host: localhost, usr: root
+2015-11-09 10:46:24...Testing priviliged account...
+2015-11-09 10:46:24...Connection made using  host: localhost, usr: root
+2015-11-09 10:46:24...DB not selected, will create sugarcrm
+2015-11-09 10:46:24...Passed DB install check
+2015-11-09 10:46:24...SUCCESS:: no errors detected!
+2015-11-09 10:46:24...End DB Check Process *************
+2015-11-09 10:46:24...installerHook: Could not find custom/install/install_hooks.php
+2015-11-09 10:46:51...installerHook: Could not find custom/install/install_hooks.php
+2015-11-09 10:47:23...installerHook: Could not find custom/install/install_hooks.php
+2015-11-09 10:47:23...calling handleSugarConfig()
+2015-11-09 10:47:23...calling handleLog4Php()
+2015-11-09 10:47:23...calling handleHtaccess()
+2015-11-09 10:47:23...calling handleDbCreateDatabase()
+2015-11-09 10:47:24...looping through all the Beans and create their tables
+2015-11-09 10:47:24...processing table acl_actions
+2015-11-09 10:47:24...creating table acl_actions
+2015-11-09 10:47:24...creating Relationship Meta for ACLAction
+2015-11-09 10:47:24...processing table acl_roles
+2015-11-09 10:47:24...creating table acl_roles
+2015-11-09 10:47:24...creating Relationship Meta for ACLRole
+2015-11-09 10:47:24...processing table relationships
+2015-11-09 10:47:24...creating table relationships
+2015-11-09 10:47:24...creating Relationship Meta for Relationship
+2015-11-09 10:47:25...processing table leads
+2015-11-09 10:47:25...creating table leads
+2015-11-09 10:47:25...creating Relationship Meta for Lead
+2015-11-09 10:47:26...processing table cases
+2015-11-09 10:47:27...creating table cases
+2015-11-09 10:47:27...creating Relationship Meta for Case
+2015-11-09 10:47:27...processing table bugs
+2015-11-09 10:47:28...creating table bugs
+2015-11-09 10:47:28...creating Relationship Meta for Bug
+2015-11-09 10:47:29...processing table users
+2015-11-09 10:47:29...creating table users
+2015-11-09 10:47:29...creating Relationship Meta for User
+2015-11-09 10:47:30...processing table campaign_log
+2015-11-09 10:47:30...creating table campaign_log
+2015-11-09 10:47:30...creating Relationship Meta for CampaignLog
+2015-11-09 10:47:30...processing table project
+2015-11-09 10:47:31...creating table project
+2015-11-09 10:47:31...creating Relationship Meta for Project
+2015-11-09 10:47:31...processing table project_task
+2015-11-09 10:47:32...creating table project_task
+2015-11-09 10:47:32...creating Relationship Meta for ProjectTask
+2015-11-09 10:47:33...processing table campaigns
+2015-11-09 10:47:34...creating table campaigns
+2015-11-09 10:47:34...creating Relationship Meta for Campaign
+2015-11-09 10:47:35...processing table prospect_lists
+2015-11-09 10:47:36...creating table prospect_lists
+2015-11-09 10:47:36...creating Relationship Meta for ProspectList
+2015-11-09 10:47:36...processing table prospects
+2015-11-09 10:47:36...creating table prospects
+2015-11-09 10:47:36...creating Relationship Meta for Prospect
+2015-11-09 10:47:37...processing table email_marketing
+2015-11-09 10:47:38...creating table email_marketing
+2015-11-09 10:47:38...creating Relationship Meta for EmailMarketing
+2015-11-09 10:47:38...processing table campaign_trkrs
+2015-11-09 10:47:38...creating table campaign_trkrs
+2015-11-09 10:47:38...creating Relationship Meta for CampaignTracker
+2015-11-09 10:47:38...processing table releases
+2015-11-09 10:47:38...creating table releases
+2015-11-09 10:47:38...creating Relationship Meta for Release
+2015-11-09 10:47:38...processing table emailman
+2015-11-09 10:47:38...creating table emailman
+2015-11-09 10:47:38...creating Relationship Meta for EmailMan
+2015-11-09 10:47:38...processing table schedulers
+2015-11-09 10:47:38...creating table schedulers
+2015-11-09 10:47:38...creating Relationship Meta for Scheduler
+2015-11-09 10:47:39...processing table job_queue
+2015-11-09 10:47:39...creating table job_queue
+2015-11-09 10:47:39...creating Relationship Meta for SchedulersJob
+2015-11-09 10:47:39...processing table contacts
+2015-11-09 10:47:40...creating table contacts
+2015-11-09 10:47:40...creating Relationship Meta for Contact
+2015-11-09 10:47:40...processing table accounts
+2015-11-09 10:47:41...creating table accounts
+2015-11-09 10:47:41...creating Relationship Meta for Account
+2015-11-09 10:47:42...processing table opportunities
+2015-11-09 10:47:43...creating table opportunities
+2015-11-09 10:47:43...creating Relationship Meta for Opportunity
+2015-11-09 10:47:44...processing table email_templates
+2015-11-09 10:47:44...creating table email_templates
+2015-11-09 10:47:44...creating Relationship Meta for EmailTemplate
+2015-11-09 10:47:44...processing table notes
+2015-11-09 10:47:45...creating table notes
+2015-11-09 10:47:45...creating Relationship Meta for Note
+2015-11-09 10:47:45...processing table calls
+2015-11-09 10:47:47...creating table calls
+2015-11-09 10:47:47...creating Relationship Meta for Call
+2015-11-09 10:47:47...processing table emails
+2015-11-09 10:47:48...creating table emails
+2015-11-09 10:47:48...creating Relationship Meta for Email
+2015-11-09 10:47:48...processing table meetings
+2015-11-09 10:47:49...creating table meetings
+2015-11-09 10:47:49...creating Relationship Meta for Meeting
+2015-11-09 10:47:49...processing table tasks
+2015-11-09 10:47:50...creating table tasks
+2015-11-09 10:47:50...creating Relationship Meta for Task
+2015-11-09 10:47:50...processing table users
+2015-11-09 10:47:50...processing table users
+2015-11-09 10:47:50...processing table currencies
+2015-11-09 10:47:50...creating table currencies
+2015-11-09 10:47:50...creating Relationship Meta for Currency
+2015-11-09 10:47:50...processing table tracker
+2015-11-09 10:47:51...creating table tracker
+2015-11-09 10:47:51...creating Relationship Meta for Tracker
+2015-11-09 10:47:51...processing table import_maps
+2015-11-09 10:47:51...creating table import_maps
+2015-11-09 10:47:51...creating Relationship Meta for ImportMap
+2015-11-09 10:47:51...processing table users_last_import
+2015-11-09 10:47:51...creating table users_last_import
+2015-11-09 10:47:51...creating Relationship Meta for UsersLastImport
+2015-11-09 10:47:51...processing table config
+2015-11-09 10:47:51...creating table config
+2015-11-09 10:47:51...creating Relationship Meta for Administration
+2015-11-09 10:47:51...processing table upgrade_history
+2015-11-09 10:47:51...creating table upgrade_history
+2015-11-09 10:47:51...creating Relationship Meta for UpgradeHistory
+2015-11-09 10:47:51...processing table vcals
+2015-11-09 10:47:51...creating table vcals
+2015-11-09 10:47:51...creating Relationship Meta for vCal
+2015-11-09 10:47:51...processing table versions
+2015-11-09 10:47:51...creating table versions
+2015-11-09 10:47:51...creating Relationship Meta for Version
+2015-11-09 10:47:51...processing table roles
+2015-11-09 10:47:52...creating table roles
+2015-11-09 10:47:52...creating Relationship Meta for Role
+2015-11-09 10:47:52...processing table documents
+2015-11-09 10:47:52...creating table documents
+2015-11-09 10:47:52...creating Relationship Meta for Document
+2015-11-09 10:47:52...processing table document_revisions
+2015-11-09 10:47:53...creating table document_revisions
+2015-11-09 10:47:53...creating Relationship Meta for DocumentRevision
+2015-11-09 10:47:53...processing table fields_meta_data
+2015-11-09 10:47:53...creating table fields_meta_data
+2015-11-09 10:47:53...creating Relationship Meta for FieldsMetaData
+2015-11-09 10:47:53...processing table inbound_email
+2015-11-09 10:47:53...creating table inbound_email
+2015-11-09 10:47:53...creating Relationship Meta for InboundEmail
+2015-11-09 10:47:53...processing table saved_search
+2015-11-09 10:47:54...creating table saved_search
+2015-11-09 10:47:54...creating Relationship Meta for SavedSearch
+2015-11-09 10:47:54...processing table user_preferences
+2015-11-09 10:47:54...creating table user_preferences
+2015-11-09 10:47:54...creating Relationship Meta for UserPreference
+2015-11-09 10:47:54...processing table 
+2015-11-09 10:47:54...processing table email_addresses
+2015-11-09 10:47:54...creating table email_addresses
+2015-11-09 10:47:54...creating Relationship Meta for EmailAddress
+2015-11-09 10:47:54...processing table emails_text
+2015-11-09 10:47:54...creating table emails_text
+2015-11-09 10:47:54...creating Relationship Meta for EmailText
+2015-11-09 10:47:54...processing table sugarfeed
+2015-11-09 10:47:54...creating table sugarfeed
+2015-11-09 10:47:54...creating Relationship Meta for SugarFeed
+2015-11-09 10:47:54...processing table eapm
+2015-11-09 10:47:55...creating table eapm
+2015-11-09 10:47:55...creating Relationship Meta for EAPM
+2015-11-09 10:47:55...processing table oauth_consumer
+2015-11-09 10:47:55...creating table oauth_consumer
+2015-11-09 10:47:55...creating Relationship Meta for OAuthKey
+2015-11-09 10:47:55...processing table oauth_tokens
+2015-11-09 10:47:56...creating table oauth_tokens
+2015-11-09 10:47:56...creating Relationship Meta for OAuthToken
+2015-11-09 10:48:05...Begin creating Defaults
+2015-11-09 10:48:05...insert defaults into config table
+2015-11-09 10:48:05...Creating default users
+2015-11-09 10:48:05...Creating default scheduler jobs
+2015-11-09 10:48:06...Enable SugarFeeds
+2015-11-09 10:48:07...Enable InsideView Connector
+2015-11-09 10:48:07...Creating FTS logic hook
+2015-11-09 10:48:07...populating the db with seed data
+2015-11-09 10:48:07...Installation has completed *********
+2015-11-09 10:49:27...installerHook: Could not find custom/install/install_hooks.php
